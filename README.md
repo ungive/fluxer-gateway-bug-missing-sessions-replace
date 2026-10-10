@@ -3,6 +3,9 @@
 There is no `SESSIONS_REPLACE` even when opening a Fluxer desktop or web client (both of the following ones were triggered by closing the same client):
 
 ```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
 $ export FLUXER_TOKEN=flx_12345
 $ python3 main.py
 READY saved to ready.json
